@@ -120,7 +120,7 @@ sample.indexOf("C");
 6
 sample.substring(6, 12);
 'Codeup'
-let mermaid = 3;
+/* let mermaid = 3;
 undefined
 let bear = 5;
 undefined
@@ -142,6 +142,19 @@ let pay = (google * 6) + (amazon * 4) + (facebook * 10)
 undefined
 pay
 7420
+*/
+
+let mermaid = prompt("How many days did you rent 'The Little Mermaid'?");
+let bear = prompt("How many days did you rent 'Brother Bear'?");
+let hercules = prompt("How many days did you rent 'Hercules'?");
+let price = prompt("What was the price per day per movie?");
+
+function(rentals) {
+    return (mermaid * price) + (bear * price) + (hercules * price);
+}
+
+console.log(rentals)
+
 var username = 'codeup';
 var password = 'notastrongpassword';
 undefined
